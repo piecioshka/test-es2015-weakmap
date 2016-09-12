@@ -17,8 +17,8 @@ console.warn('[-] Remove first object from "users" array');
 
 console.log('[*] Display message for users[0]: "%s"', weakMap.get(users[0])); // 'some info 2'
 
-const GC_TIMEOUT = 15 * 1000;
-const GC_CHECKER_INTERVAL = 100;
+const GC_TIMEOUT = 5 * 1000;
+const GC_CHECKER_INTERVAL = 500;
 
 setTimeout(function () {
     setInterval(function () {

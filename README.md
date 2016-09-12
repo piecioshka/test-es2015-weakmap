@@ -33,9 +33,23 @@
 
     ![](./screenshots/gc-activate.png)
 
-## History
+## Proof (Log & Timeline)
 
 ![](./screenshots/screenshot.png)
+
+1. GC reduce WeakMap
+
+----
+
+![](./screenshots/gc-activate-timeline.png)
+
+2. GC was invoke.
+
+---
+
+On above screenshot we can see that Garbage Collector was invoked couple seconds after idle time.
+
+GC remove values from `WeakMap` - proof is available on the first screenshot.
 
 ## License
 
