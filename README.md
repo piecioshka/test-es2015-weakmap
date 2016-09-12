@@ -1,6 +1,6 @@
 # test-es2015-weakmap
 
-> :ledger: Testing WeakMap from ECMAScript 2015 spec
+> :ledger: Testing WeakMap (reducing by Garbage Collector) from ECMAScript 2015 spec
 
 ## How it works?
 
