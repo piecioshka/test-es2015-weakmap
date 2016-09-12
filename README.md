@@ -31,25 +31,22 @@
 
 5. Wait some time for Garbage Collector, which reduce `weakMap` collection
 
-    ![](./screenshots/gc-activate.png)
+    ![](./screenshots/gc-activate-log.png)
 
-## Proof (Log & Timeline)
+## Explanation
 
-![](./screenshots/screenshot.png)
+1. GC reduce WeakMap (DevTools Console)
 
-1. GC reduce WeakMap
+    ![](./screenshots/screenshot.png)
 
-----
+2. GC was invoke (DevTools Timeline)
 
-![](./screenshots/gc-activate-timeline.png)
-
-2. GC was invoke.
+    ![](./screenshots/gc-activate-timeline.png)
 
 ---
 
 On above screenshot we can see that Garbage Collector was invoked couple seconds after idle time.
-
-GC remove values from `WeakMap` - proof is available on the first screenshot.
+GC remove values from `WeakMap`. Proof is available on the first screenshot.
 
 ## License
 
