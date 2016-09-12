@@ -6,7 +6,7 @@
 
 1. Create `users` array with simple literal objects
 
-    ```js
+    ```javascript
     var users = [{ name: 'Peter' }, { name: 'Kate' }];
     ```
 
@@ -31,7 +31,7 @@
 
 5. Wait some time for Garbage Collector, which reduce `weakMap` collection
 
-    ![](./screenshots/gc-activate-log.png)
+![](./screenshots/gc-activate-log.png)
 
 ## Explanation
 
