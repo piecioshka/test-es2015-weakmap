@@ -35,15 +35,13 @@
 
 ## Explanation
 
-1. GC reduce WeakMap (DevTools Console)
+At first, Garbage Collector reduce WeakMap (DevTools Console)
 
-    ![](./screenshots/logs.png)
+![](./screenshots/logs.png)
 
-2. GC was invoke (DevTools Timeline)
+Next, Garbage Collector was invoke (DevTools Timeline)
 
-    ![](./screenshots/gc-activate-timeline.png)
-
----
+![](./screenshots/gc-activate-timeline.png)
 
 On above screenshot we can see that Garbage Collector was invoked couple seconds after idle time.
 GC remove values from `WeakMap`. Proof is available on the first screenshot.
