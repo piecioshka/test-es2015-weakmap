@@ -6,7 +6,7 @@
 
 1. Create `users` array with simple literal objects
 
-    ```javascript
+    ```js
     var users = [{ name: 'Peter' }, { name: 'Kate' }];
     ```
 
@@ -37,7 +37,7 @@
 
 1. GC reduce WeakMap (DevTools Console)
 
-    ![](./screenshots/screenshot.png)
+    ![](./screenshots/logs.png)
 
 2. GC was invoke (DevTools Timeline)
 
